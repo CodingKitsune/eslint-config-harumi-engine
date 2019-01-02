@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-harumi-engine",
+  "version": "1.0.0",
+  "description": "ESLint configuration for Harumi Engine Projects",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {},
+  "keywords": [
+    "eslint",
+    "config",
+    "harumi",
+    "game",
+    "engine",
+    "react"
+  ],
+  "author": "CodingKitsune <codingkitsune@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-react": "1.1.7",
+    "eslint-plugin-babel": "5.2.1",
+    "eslint-plugin-flowtype": "3.2.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-react": "7.12.2"
+  },
+  "peerDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "babel-eslint": "^10.0.1"
+  }
+}
