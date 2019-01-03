@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-harumi-engine",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "ESLint configuration for Harumi Engine Projects",
   "main": "index.js",
   "engines": {
