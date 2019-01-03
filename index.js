@@ -47,7 +47,7 @@ module.exports = {
     "prettier/prettier": ["error"]
   },
   plugins: [
-      "jsx-a11y"
+      "jsx-a11y",
       "flowtype",
       "react",
       "prettier"
