@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     "eslint:recommended",
+    "plugin:jsx-a11y/recommended",
     "plugin:flowtype/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
@@ -46,6 +47,7 @@ module.exports = {
     "prettier/prettier": ["error"]
   },
   plugins: [
+      "jsx-a11y"
       "flowtype",
       "react",
       "prettier"
