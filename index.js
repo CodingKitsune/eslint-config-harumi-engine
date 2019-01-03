@@ -5,7 +5,8 @@ module.exports = {
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:react/recommended",
-    "airbnb"
+    "airbnb",
+    "prettier"
   ],
   parser: "babel-eslint",
   parserOptions: {
@@ -41,9 +42,13 @@ module.exports = {
     browser: true,
     es6: true
   },
+  "rules": {
+    "prettier/prettier": ["error"]
+  },
   plugins: [
       "flowtype",
-      "react"
+      "react",
+      "prettier"
   ],
   settings: {
     react: {
